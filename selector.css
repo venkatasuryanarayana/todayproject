@@ -1,0 +1,25 @@
+/* Descendent selctor(space)- it combies two selectors such that elements 
+selected or matches
+from the second selector It selects the child of */
+/*li li{
+	background-color: red;
+}*/
+
+/*child combinator*/
+/*div>p{
+	background-color: red;
+}*/
+
+/*Adjacent sibling selector*/
+/*div+p{
+	background-color: red;
+}
+
+p+p{
+	background-color: skyblue;
+}*/
+
+/*General sibling selector*/
+div ~ h2{
+	color:red;
+}
